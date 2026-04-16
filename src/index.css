@@ -1,3 +1,35 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.light {
+  background: white;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}

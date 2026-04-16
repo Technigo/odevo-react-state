@@ -1,5 +1,12 @@
+import { Counter } from './components/Counter'
+import { Pokemon } from './components/Pokemon'
+
 export const App = () => {
   return (
-    <h1>React Boilerplate</h1>
+    <div className="App">
+      <h1>Hello World</h1>
+      <Counter />
+      <Pokemon />
+    </div>
   )
 }
