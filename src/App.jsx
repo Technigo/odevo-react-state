@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import { Counter } from './components/Counter'
+import { Country } from './components/Country'
 import { Pokemon } from './components/Pokemon'
 import { Theme } from './components/Theme'
 
@@ -15,7 +16,8 @@ export const App = () => {
         isDarkTheme={isDarkTheme}
         setIsDarkTheme={setIsDarkTheme}
       />
-      {/* <Pokemon /> */}
+      <Pokemon />
+      <Country />
     </div>
   )
 }
